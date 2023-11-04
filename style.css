@@ -130,6 +130,7 @@ input:focus {
 /*  */
 section {
   background-color: black;
+  border-bottom: 6px solid rgb(35, 35, 35);
 }
 .container {
   padding: 5vmax 0px;
@@ -166,10 +167,19 @@ section {
 }
 .tv-video {
   height: 100%;
-  width: 100%;
+  width: 80%;
   position: absolute;
   top: 0%;
   left: 10%;
+  overflow: hidden;
+  object-fit: contain;
+}
+.page-3-tv {
+  height: 60%;
+  width: 60%;
+  position: absolute;
+  top: 0%;
+  left: 20%;
   overflow: hidden;
   object-fit: contain;
 }
