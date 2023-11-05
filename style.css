@@ -183,3 +183,20 @@ section {
   overflow: hidden;
   object-fit: contain;
 }
+.quetion {
+  width: 70%;
+  padding: 1rem;
+  background-color: rgb(65, 65, 65);
+  margin: 0 0 0.5rem 0;
+  color: white;
+}
+.main {
+  margin-left: 20%;
+}
+
+.main h1 {
+  color: white;
+  margin: 0;
+  margin-left: 20%;
+  font-size: 24px;
+}
